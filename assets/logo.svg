@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161f2e"/>
+    </linearGradient>
+    <linearGradient id="duckGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#facc15"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="oledGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Badge Frame -->
+  <rect x="24" y="24" width="464" height="464" rx="56" fill="url(#bgGrad)" stroke="#f97316" stroke-width="10"/>
+  <rect x="42" y="42" width="428" height="428" rx="42" fill="none" stroke="#38bdf8" stroke-width="3" stroke-dasharray="12 8" opacity="0.5"/>
+
+  <!-- StreamDock Body Silhouette -->
+  <rect x="86" y="210" width="340" height="196" rx="22" fill="#1c2333" stroke="#30363d" stroke-width="6"/>
+  <!-- Mini OLED Top Display inside Dock -->
+  <rect x="112" y="228" width="164" height="62" rx="6" fill="#05080d" stroke="#38bdf8" stroke-width="3"/>
+  <text x="124" y="250" fill="#38bdf8" font-family="monospace" font-weight="bold" font-size="13">DASHBOARD</text>
+  <!-- Bluetooth Pixel Icon -->
+  <path d="M258 238 L264 244 L258 250 M261 235 L261 253" stroke="#38bdf8" stroke-width="2" fill="none"/>
+  <line x1="112" y1="256" x2="276" y2="256" stroke="#38bdf8" stroke-width="1.5"/>
+  <!-- Mini 3x2 Slots inside OLED -->
+  <rect x="120" y="262" width="42" height="20" rx="3" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="129" y="276" fill="#e6edf3" font-family="monospace" font-weight="bold" font-size="11">SND</text>
+  <rect x="172" y="262" width="42" height="20" rx="3" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="181" y="276" fill="#e6edf3" font-family="monospace" font-weight="bold" font-size="11">PIC</text>
+  <rect x="224" y="262" width="42" height="20" rx="3" fill="#38bdf8"/>
+  <text x="233" y="276" fill="#05080d" font-family="monospace" font-weight="bold" font-size="11">REC</text>
+
+  <!-- 6 Macro Keycaps Grid (2x3) + 4 Nav Buttons -->
+  <g fill="#0d1117" stroke="#f97316" stroke-width="3">
+    <rect x="112" y="304" width="52" height="36" rx="6"/>
+    <rect x="174" y="304" width="52" height="36" rx="6"/>
+    <rect x="236" y="304" width="52" height="36" rx="6"/>
+    <rect x="112" y="350" width="52" height="36" rx="6"/>
+    <rect x="174" y="350" width="52" height="36" rx="6"/>
+    <rect x="236" y="350" width="52" height="36" rx="6"/>
+  </g>
+  <g fill="#f97316" font-family="monospace" font-weight="bold" font-size="12" text-anchor="middle">
+    <text x="138" y="327">S1</text>
+    <text x="200" y="327">S2</text>
+    <text x="262" y="327">S3</text>
+    <text x="138" y="373">S4</text>
+    <text x="200" y="373">S5</text>
+    <text x="262" y="373">S6</text>
+  </g>
+
+  <!-- 4 Nav Buttons on Right Side -->
+  <g fill="#0d1117" stroke="#22c55e" stroke-width="2.5">
+    <rect x="312" y="228" width="90" height="32" rx="6"/>
+    <rect x="312" y="270" width="42" height="32" rx="6"/>
+    <rect x="360" y="270" width="42" height="32" rx="6"/>
+    <rect x="312" y="312" width="90" height="74" rx="8" fill="#22c55e" fill-opacity="0.15"/>
+  </g>
+  <text x="357" y="249" fill="#22c55e" font-family="monospace" font-weight="bold" font-size="12" text-anchor="middle">MENU</text>
+  <text x="333" y="291" fill="#22c55e" font-family="monospace" font-weight="bold" font-size="13" text-anchor="middle">▲+</text>
+  <text x="381" y="291" fill="#22c55e" font-family="monospace" font-weight="bold" font-size="13" text-anchor="middle">▼-</text>
+  <text x="357" y="346" fill="#22c55e" font-family="monospace" font-weight="bold" font-size="13" text-anchor="middle">ENTER</text>
+  <text x="357" y="366" fill="#94a3b8" font-family="monospace" font-size="11" text-anchor="middle">⏯ PLAY</text>
+
+  <!-- Cyber Pixel Duck Mascot (Top Center) -->
+  <g transform="translate(176, 56)">
+    <!-- Duck Head & Body (Pixel-styled blocks) -->
+    <rect x="36" y="16" width="76" height="68" rx="14" fill="url(#duckGrad)" stroke="#0d1117" stroke-width="5"/>
+    <!-- Duck Crest / Feather -->
+    <rect x="60" y="4" width="28" height="16" rx="4" fill="#facc15"/>
+    <!-- Cyber Visor / Sunglasses (OLED Blue) -->
+    <rect x="48" y="34" width="60" height="20" rx="4" fill="#0d1117" stroke="#38bdf8" stroke-width="3"/>
+    <rect x="56" y="40" width="16" height="8" fill="#38bdf8"/>
+    <rect x="84" y="40" width="16" height="8" fill="#38bdf8"/>
+    <!-- Duck Beak -->
+    <rect x="98" y="52" width="44" height="20" rx="6" fill="#ea580c" stroke="#0d1117" stroke-width="4"/>
+    <!-- Headset Mic on Duck -->
+    <path d="M40 44 L24 44 L24 72 L52 72" stroke="#22c55e" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <circle cx="54" cy="72" r="5" fill="#22c55e"/>
+    <!-- Duck Collar / Tag -->
+    <rect x="32" y="84" width="84" height="54" rx="12" fill="url(#duckGrad)" stroke="#0d1117" stroke-width="5"/>
+    <rect x="50" y="98" width="48" height="24" rx="4" fill="#0d1117"/>
+    <text x="74" y="115" fill="#38bdf8" font-family="monospace" font-weight="bold" font-size="13" text-anchor="middle">ESP32</text>
+  </g>
+
+  <!-- Brand Typography Bottom -->
+  <text x="256" y="448" fill="#ffffff" font-family="monospace" font-weight="bold" font-size="38" text-anchor="middle" letter-spacing="3">DUCK<tspan fill="#f97316">DOCK</tspan></text>
+  <text x="256" y="472" fill="#38bdf8" font-family="monospace" font-weight="bold" font-size="13" text-anchor="middle" letter-spacing="2">ESP32 BLE STREAM DECK • SSD1306 OLED</text>
+</svg>

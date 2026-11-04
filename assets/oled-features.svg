@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 660" width="960" height="660">
+  <rect width="960" height="660" fill="#0d1117"/>
+  <rect x="16" y="16" width="928" height="628" fill="#161b22" stroke="#22c55e" stroke-width="4"/>
+  <rect x="16" y="16" width="928" height="48" fill="#1c2333" stroke="#22c55e" stroke-width="2"/>
+  <text x="36" y="46" fill="#22c55e" font-family="monospace" font-weight="bold" font-size="18">⚡ 11 FITUR MAKRO DUCKDOCK &amp; TAMPILAN POP-UP OLED (showFeedback)</text>
+
+  <!-- Grid of 11 Features + Volume/Media Direct Controls (3 cols x 4 rows) -->
+  <!-- Card 1 -->
+  <g transform="translate(36, 84)">
+    <rect width="280" height="118" rx="6" fill="#1c2333" stroke="#38bdf8" stroke-width="2"/>
+    <text x="14" y="24" fill="#38bdf8" font-family="monospace" font-weight="bold" font-size="14">[0] 1. Audio Toggle (SND)</text>
+    <text x="14" y="44" fill="#94a3b8" font-family="monospace" font-size="11">Win+Ctrl+V → Auto Switch Output</text>
+    <!-- Mini OLED Popup preview -->
+    <rect x="14" y="56" width="252" height="48" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <rect x="34" y="64" width="212" height="32" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="140" y="85" fill="#38bdf8" font-family="monospace" font-weight="bold" font-size="13" text-anchor="middle">AUDIO: MON / AUDIO: IEM</text>
+  </g>
+
+  <!-- Card 2 -->
+  <g transform="translate(340, 84)">
+    <rect width="280" height="118" rx="6" fill="#1c2333" stroke="#38bdf8" stroke-width="2"/>
+    <text x="14" y="24" fill="#38bdf8" font-family="monospace" font-weight="bold" font-size="14">[1] 2. Screenshot (PIC)</text>
+    <text x="14" y="44" fill="#94a3b8" font-family="monospace" font-size="11">Hotkey: Win + PrintScreen</text>
+    <rect x="14" y="56" width="252" height="48" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <rect x="34" y="64" width="212" height="32" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="140" y="85" fill="#ffffff" font-family="monospace" font-weight="bold" font-size="14" text-anchor="middle">SCREENSHOT</text>
+  </g>
+
+  <!-- Card 3 -->
+  <g transform="translate(644, 84)">
+    <rect width="280" height="118" rx="6" fill="#1c2333" stroke="#f97316" stroke-width="2"/>
+    <text x="14" y="24" fill="#f97316" font-family="monospace" font-weight="bold" font-size="14">[2] 3. Nvidia Record (REC)</text>
+    <text x="14" y="44" fill="#94a3b8" font-family="monospace" font-size="11">Hotkey: Alt + F10 (ShadowPlay)</text>
+    <rect x="14" y="56" width="252" height="48" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <rect x="34" y="64" width="212" height="32" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="140" y="85" fill="#f97316" font-family="monospace" font-weight="bold" font-size="14" text-anchor="middle">RECORDING</text>
+  </g>
+
+  <!-- Card 4 -->
+  <g transform="translate(36, 218)">
+    <rect width="280" height="118" rx="6" fill="#1c2333" stroke="#38bdf8" stroke-width="2"/>
+    <text x="14" y="24" fill="#38bdf8" font-family="monospace" font-weight="bold" font-size="14">[3] 4. Task Manager (TSK)</text>
+    <text x="14" y="44" fill="#94a3b8" font-family="monospace" font-size="11">Hotkey: Ctrl + Shift + Esc</text>
+    <rect x="14" y="56" width="252" height="48" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <rect x="34" y="64" width="212" height="32" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="140" y="85" fill="#ffffff" font-family="monospace" font-weight="bold" font-size="14" text-anchor="middle">TASK MANAGER</text>
+  </g>
+
+  <!-- Card 5 -->
+  <g transform="translate(340, 218)">
+    <rect width="280" height="118" rx="6" fill="#1c2333" stroke="#22c55e" stroke-width="2"/>
+    <text x="14" y="24" fill="#22c55e" font-family="monospace" font-weight="bold" font-size="14">[4] 5. Mute Mic (MIC)</text>
+    <text x="14" y="44" fill="#94a3b8" font-family="monospace" font-size="11">Hotkey: Win + Alt + K</text>
+    <rect x="14" y="56" width="252" height="48" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <rect x="34" y="64" width="212" height="32" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="140" y="85" fill="#22c55e" font-family="monospace" font-weight="bold" font-size="14" text-anchor="middle">MIC TOGGLED</text>
+  </g>
+
+  <!-- Card 6 -->
+  <g transform="translate(644, 218)">
+    <rect width="280" height="118" rx="6" fill="#1c2333" stroke="#a78bfa" stroke-width="2"/>
+    <text x="14" y="24" fill="#a78bfa" font-family="monospace" font-weight="bold" font-size="14">[5] 6. Ghost F13 OBS (F13)</text>
+    <text x="14" y="44" fill="#94a3b8" font-family="monospace" font-size="11">Virtual Key: KEY_F13 (Zero Clash)</text>
+    <rect x="14" y="56" width="252" height="48" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <rect x="34" y="64" width="212" height="32" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="140" y="85" fill="#a78bfa" font-family="monospace" font-weight="bold" font-size="14" text-anchor="middle">F13 DITEKAN</text>
+  </g>
+
+  <!-- Card 7 -->
+  <g transform="translate(36, 352)">
+    <rect width="280" height="118" rx="6" fill="#1c2333" stroke="#facc15" stroke-width="2"/>
+    <text x="14" y="24" fill="#facc15" font-family="monospace" font-weight="bold" font-size="14">[6] 7. Toggle HDR (HDR)</text>
+    <text x="14" y="44" fill="#94a3b8" font-family="monospace" font-size="11">Hotkey: Win + Alt + B</text>
+    <rect x="14" y="56" width="252" height="48" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <rect x="34" y="64" width="212" height="32" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="140" y="85" fill="#facc15" font-family="monospace" font-weight="bold" font-size="14" text-anchor="middle">HDR TOGGLED</text>
+  </g>
+
+  <!-- Card 8 -->
+  <g transform="translate(340, 352)">
+    <rect width="280" height="118" rx="6" fill="#1c2333" stroke="#38bdf8" stroke-width="2"/>
+    <text x="14" y="24" fill="#38bdf8" font-family="monospace" font-weight="bold" font-size="14">[7] 8. Focus Mode (FOC)</text>
+    <text x="14" y="44" fill="#94a3b8" font-family="monospace" font-size="11">Hotkey: Win + Home (Minimize Other)</text>
+    <rect x="14" y="56" width="252" height="48" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <rect x="34" y="64" width="212" height="32" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="140" y="85" fill="#ffffff" font-family="monospace" font-weight="bold" font-size="14" text-anchor="middle">FOCUS MODE</text>
+  </g>
+
+  <!-- Card 9 -->
+  <g transform="translate(644, 352)">
+    <rect width="280" height="118" rx="6" fill="#1c2333" stroke="#f97316" stroke-width="2"/>
+    <text x="14" y="24" fill="#f97316" font-family="monospace" font-weight="bold" font-size="14">[8] 9. Restart VGA (VGA)</text>
+    <text x="14" y="44" fill="#94a3b8" font-family="monospace" font-size="11">Hotkey: Win + Ctrl + Shift + B</text>
+    <rect x="14" y="56" width="252" height="48" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <rect x="34" y="64" width="212" height="32" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="140" y="85" fill="#f97316" font-family="monospace" font-weight="bold" font-size="14" text-anchor="middle">RESET VGA</text>
+  </g>
+
+  <!-- Card 10 -->
+  <g transform="translate(36, 486)">
+    <rect width="280" height="118" rx="6" fill="#1c2333" stroke="#22c55e" stroke-width="2"/>
+    <text x="14" y="24" fill="#22c55e" font-family="monospace" font-weight="bold" font-size="14">[9] 10. Next Track (NXT)</text>
+    <text x="14" y="44" fill="#94a3b8" font-family="monospace" font-size="11">Media Key: KEY_MEDIA_NEXT_TRACK</text>
+    <rect x="14" y="56" width="252" height="48" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <rect x="34" y="64" width="212" height="32" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="140" y="85" fill="#22c55e" font-family="monospace" font-weight="bold" font-size="14" text-anchor="middle">NEXT TRACK</text>
+  </g>
+
+  <!-- Card 11 -->
+  <g transform="translate(340, 486)">
+    <rect width="280" height="118" rx="6" fill="#1c2333" stroke="#22c55e" stroke-width="2"/>
+    <text x="14" y="24" fill="#22c55e" font-family="monospace" font-weight="bold" font-size="14">[10] 11. Prev Track (PRV)</text>
+    <text x="14" y="44" fill="#94a3b8" font-family="monospace" font-size="11">Media Key: KEY_MEDIA_PREVIOUS_TRACK</text>
+    <rect x="14" y="56" width="252" height="48" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <rect x="34" y="64" width="212" height="32" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="140" y="85" fill="#22c55e" font-family="monospace" font-weight="bold" font-size="14" text-anchor="middle">PREV TRACK</text>
+  </g>
+
+  <!-- Card 12: Direct Media Controls on Dashboard -->
+  <g transform="translate(644, 486)">
+    <rect width="280" height="118" rx="6" fill="#1c2333" stroke="#a78bfa" stroke-width="2"/>
+    <text x="14" y="24" fill="#a78bfa" font-family="monospace" font-weight="bold" font-size="14">[+] Dedicated Media Nav</text>
+    <text x="14" y="44" fill="#94a3b8" font-family="monospace" font-size="11">Saat di Dashboard (btnUp/Down/Enter)</text>
+    <rect x="14" y="56" width="252" height="48" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <rect x="34" y="64" width="212" height="32" rx="4" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="140" y="85" fill="#a78bfa" font-family="monospace" font-weight="bold" font-size="12" text-anchor="middle">VOLUME UP + / PLAY / PAUSE</text>
+  </g>
+</svg>

@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="960" height="620">
+  <rect width="960" height="620" fill="#0d1117"/>
+  <rect x="16" y="16" width="928" height="588" fill="#161b22" stroke="#f97316" stroke-width="4"/>
+
+  <!-- Header -->
+  <rect x="16" y="16" width="928" height="48" fill="#1c2333" stroke="#f97316" stroke-width="2"/>
+  <text x="38" y="46" fill="#f97316" font-family="monospace" font-weight="bold" font-size="19">🦆 DUCKDOCK OLED SSD1306 (128x64) — SEMUA TAMPILAN LAYAR &amp; STATE</text>
+  <text x="735" y="45" fill="#38bdf8" font-family="monospace" font-size="13">I2C 0x3C • Adafruit_SSD1306</text>
+
+  <!-- ==================== SCREEN 1: STATE 0 DASHBOARD ==================== -->
+  <g transform="translate(42, 86)">
+    <text x="0" y="18" fill="#38bdf8" font-family="monospace" font-weight="bold" font-size="15">1. STATE 0: DASHBOARD (DEFAULT)</text>
+    <text x="0" y="36" fill="#94a3b8" font-family="monospace" font-size="12">Menampilkan 6 slot tombol aktif + ikon BT</text>
+    <!-- OLED Bezel (Scale 2x of 128x64 -> 256x128) -->
+    <rect x="0" y="48" width="268" height="140" rx="8" fill="#05070a" stroke="#30363d" stroke-width="3"/>
+    <g transform="translate(6, 54)">
+      <!-- Outer white rect 128x64 scaled 2x = 256x128 -->
+      <rect x="0" y="0" width="256" height="128" fill="#000000" stroke="#ffffff" stroke-width="2"/>
+      <!-- Header text & Bluetooth bitmap -->
+      <text x="8" y="20" fill="#ffffff" font-family="monospace" font-weight="bold" font-size="15">DASHBOARD</text>
+      <!-- Bluetooth icon at (118,3) -->
+      <path d="M236 8 L244 14 L236 20 M240 6 L240 22 L245 17 L235 10 M240 22 L245 10 L235 17" stroke="#38bdf8" stroke-width="2" fill="none"/>
+      <line x1="0" y1="28" x2="256" y2="28" stroke="#ffffff" stroke-width="2"/>
+      <!-- 3x2 Grid of RoundRects (34x20 -> 68x40) -->
+      <!-- Row 1 -->
+      <rect x="12" y="36" width="68" height="40" rx="6" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <text x="28" y="61" fill="#ffffff" font-family="monospace" font-weight="bold" font-size="16">SND</text>
+
+      <rect x="94" y="36" width="68" height="40" rx="6" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <text x="110" y="61" fill="#ffffff" font-family="monospace" font-weight="bold" font-size="16">PIC</text>
+
+      <rect x="176" y="36" width="68" height="40" rx="6" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <text x="192" y="61" fill="#ffffff" font-family="monospace" font-weight="bold" font-size="16">REC</text>
+
+      <!-- Row 2 -->
+      <rect x="12" y="82" width="68" height="40" rx="6" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <text x="28" y="107" fill="#ffffff" font-family="monospace" font-weight="bold" font-size="16">TSK</text>
+
+      <rect x="94" y="82" width="68" height="40" rx="6" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <text x="110" y="107" fill="#ffffff" font-family="monospace" font-weight="bold" font-size="16">MIC</text>
+
+      <rect x="176" y="82" width="68" height="40" rx="6" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <text x="192" y="107" fill="#ffffff" font-family="monospace" font-weight="bold" font-size="16">F13</text>
+    </g>
+  </g>
+
+  <!-- ==================== SCREEN 2: STATE 1 MENU UTAMA ==================== -->
+  <g transform="translate(346, 86)">
+    <text x="0" y="18" fill="#f97316" font-family="monospace" font-weight="bold" font-size="15">2. STATE 1: MENU UTAMA</text>
+    <text x="0" y="36" fill="#94a3b8" font-family="monospace" font-size="12">Ditekan dari btnMenu (GPIO 4)</text>
+    <rect x="0" y="48" width="268" height="140" rx="8" fill="#05070a" stroke="#30363d" stroke-width="3"/>
+    <g transform="translate(6, 54)">
+      <rect x="0" y="0" width="256" height="128" fill="#000000" stroke="#ffffff" stroke-width="2"/>
+      <text x="8" y="20" fill="#ffffff" font-family="monospace" font-weight="bold" font-size="15">MENU UTAMA</text>
+      <path d="M236 8 L244 14 L236 20 M240 6 L240 22" stroke="#38bdf8" stroke-width="2" fill="none"/>
+      <line x1="0" y1="28" x2="256" y2="28" stroke="#ffffff" stroke-width="2"/>
+
+      <!-- Highlighted Item 0 -->
+      <rect x="4" y="32" width="248" height="24" fill="#ffffff"/>
+      <text x="12" y="49" fill="#000000" font-family="monospace" font-weight="bold" font-size="15">1. Ubah Shortcut</text>
+
+      <!-- Item 1 -->
+      <text x="12" y="77" fill="#ffffff" font-family="monospace" font-size="15">2. Music Player</text>
+
+      <!-- Item 2 -->
+      <text x="12" y="105" fill="#ffffff" font-family="monospace" font-size="15">3. Reset Default</text>
+    </g>
+  </g>
+
+  <!-- ==================== SCREEN 3: STATE 2 PILIH FITUR ==================== -->
+  <g transform="translate(650, 86)">
+    <text x="0" y="18" fill="#22c55e" font-family="monospace" font-weight="bold" font-size="15">3. STATE 2: PILIH FITUR (1-11)</text>
+    <text x="0" y="36" fill="#94a3b8" font-family="monospace" font-size="12">Daftar 11 fitur makro siap pakai</text>
+    <rect x="0" y="48" width="268" height="140" rx="8" fill="#05070a" stroke="#30363d" stroke-width="3"/>
+    <g transform="translate(6, 54)">
+      <rect x="0" y="0" width="256" height="128" fill="#000000" stroke="#ffffff" stroke-width="2"/>
+      <text x="8" y="20" fill="#ffffff" font-family="monospace" font-weight="bold" font-size="15">PILIH FITUR:</text>
+      <path d="M236 8 L244 14 L236 20 M240 6 L240 22" stroke="#38bdf8" stroke-width="2" fill="none"/>
+      <line x1="0" y1="28" x2="256" y2="28" stroke="#ffffff" stroke-width="2"/>
+
+      <text x="12" y="49" fill="#ffffff" font-family="monospace" font-size="15">1. Audio Toggle</text>
+      <!-- Highlighted Item -->
+      <rect x="4" y="60" width="248" height="24" fill="#ffffff"/>
+      <text x="12" y="77" fill="#000000" font-family="monospace" font-weight="bold" font-size="15">2. Screenshot</text>
+      <text x="12" y="105" fill="#ffffff" font-family="monospace" font-size="15">3. Nvidia Record</text>
+    </g>
+  </g>
+
+  <!-- ==================== SCREEN 4: STATE 3 PILIH SLOT ==================== -->
+  <g transform="translate(42, 316)">
+    <text x="0" y="18" fill="#a78bfa" font-family="monospace" font-weight="bold" font-size="15">4. STATE 3: PILIH SLOT (1-6)</text>
+    <text x="0" y="36" fill="#94a3b8" font-family="monospace" font-size="12">Simpan permanen ke NVS Flash (Preferences)</text>
+    <rect x="0" y="48" width="268" height="140" rx="8" fill="#05070a" stroke="#30363d" stroke-width="3"/>
+    <g transform="translate(6, 54)">
+      <rect x="0" y="0" width="256" height="128" fill="#000000" stroke="#ffffff" stroke-width="2"/>
+      <text x="8" y="20" fill="#ffffff" font-family="monospace" font-weight="bold" font-size="15">PILIH SLOT (1-6):</text>
+      <line x1="0" y1="28" x2="256" y2="28" stroke="#ffffff" stroke-width="2"/>
+
+      <!-- Slot 1 Active/Selected (Filled White) -->
+      <rect x="12" y="36" width="68" height="40" rx="6" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
+      <text x="28" y="61" fill="#000000" font-family="monospace" font-weight="bold" font-size="16">SND</text>
+
+      <rect x="94" y="36" width="68" height="40" rx="6" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <text x="110" y="61" fill="#ffffff" font-family="monospace" font-weight="bold" font-size="16">PIC</text>
+
+      <rect x="176" y="36" width="68" height="40" rx="6" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <text x="192" y="61" fill="#ffffff" font-family="monospace" font-weight="bold" font-size="16">REC</text>
+
+      <rect x="12" y="82" width="68" height="40" rx="6" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <text x="28" y="107" fill="#ffffff" font-family="monospace" font-weight="bold" font-size="16">TSK</text>
+
+      <rect x="94" y="82" width="68" height="40" rx="6" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <text x="110" y="107" fill="#ffffff" font-family="monospace" font-weight="bold" font-size="16">MIC</text>
+
+      <rect x="176" y="82" width="68" height="40" rx="6" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <text x="192" y="107" fill="#ffffff" font-family="monospace" font-weight="bold" font-size="16">F13</text>
+    </g>
+  </g>
+
+  <!-- ==================== SCREEN 5: STATE 4 MUSIC PLAYER ==================== -->
+  <g transform="translate(346, 316)">
+    <text x="0" y="18" fill="#38bdf8" font-family="monospace" font-weight="bold" font-size="15">5. STATE 4: MUSIC PLAYER</text>
+    <text x="0" y="36" fill="#94a3b8" font-family="monospace" font-size="12">Kontrol Media BLE HID langsung</text>
+    <rect x="0" y="48" width="268" height="140" rx="8" fill="#05070a" stroke="#30363d" stroke-width="3"/>
+    <g transform="translate(6, 54)">
+      <rect x="0" y="0" width="256" height="128" fill="#000000" stroke="#ffffff" stroke-width="2"/>
+      <text x="8" y="20" fill="#ffffff" font-family="monospace" font-weight="bold" font-size="15">MUSIC PLAYER</text>
+      <line x1="0" y1="28" x2="256" y2="28" stroke="#ffffff" stroke-width="2"/>
+
+      <rect x="4" y="32" width="248" height="24" fill="#ffffff"/>
+      <text x="12" y="49" fill="#000000" font-family="monospace" font-weight="bold" font-size="15">1. Play / Pause</text>
+      <text x="12" y="77" fill="#ffffff" font-family="monospace" font-size="15">2. Next Track &gt;&gt;</text>
+      <text x="12" y="105" fill="#ffffff" font-family="monospace" font-size="15">3. &lt;&lt; Prev Track</text>
+    </g>
+  </g>
+
+  <!-- ==================== SCREEN 6: POPUP FEEDBACK OVERLAY ==================== -->
+  <g transform="translate(650, 316)">
+    <text x="0" y="18" fill="#facc15" font-family="monospace" font-weight="bold" font-size="15">6. POP-UP FEEDBACK OVERLAY</text>
+    <text x="0" y="36" fill="#94a3b8" font-family="monospace" font-size="12">Fungsi showFeedback() selama 700ms</text>
+    <rect x="0" y="48" width="268" height="140" rx="8" fill="#05070a" stroke="#30363d" stroke-width="3"/>
+    <g transform="translate(6, 54)">
+      <rect x="0" y="0" width="256" height="128" fill="#000000" stroke="#ffffff" stroke-width="2"/>
+      <text x="8" y="20" fill="#ffffff" font-family="monospace" font-weight="bold" font-size="15">DASHBOARD</text>
+      <line x1="0" y1="28" x2="256" y2="28" stroke="#ffffff" stroke-width="2"/>
+      <!-- Background dimmed slots -->
+      <rect x="12" y="36" width="68" height="40" rx="6" fill="none" stroke="#555555" stroke-width="2"/>
+      <rect x="176" y="36" width="68" height="40" rx="6" fill="none" stroke="#555555" stroke-width="2"/>
+      <rect x="12" y="82" width="68" height="40" rx="6" fill="none" stroke="#555555" stroke-width="2"/>
+      <rect x="176" y="82" width="68" height="40" rx="6" fill="none" stroke="#555555" stroke-width="2"/>
+
+      <!-- Modal Feedback Overlay (x:20, y:44, w:216, h:44) -->
+      <rect x="20" y="44" width="216" height="44" rx="8" fill="#000000" stroke="#ffffff" stroke-width="2.5"/>
+      <text x="128" y="72" fill="#38bdf8" font-family="monospace" font-weight="bold" font-size="17" text-anchor="middle">AUDIO: MON</text>
+    </g>
+  </g>
+
+  <!-- Footer Summary -->
+  <rect x="42" y="526" width="876" height="54" fill="#1c2333" stroke="#30363d" stroke-width="2"/>
+  <text x="62" y="558" fill="#e6edf3" font-family="monospace" font-size="14">KODE FITUR PENDEK (3 HURUF): SND • PIC • REC • TSK • MIC • F13 • HDR • FOC • VGA • NXT • PRV</text>
+</svg>
